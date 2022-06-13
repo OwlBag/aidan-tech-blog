@@ -41,7 +41,7 @@
     background-color: #8cfce935;
   }
 
-  .review-list {
+  .post-list {
     margin: 0;
     padding: 0;
   }
@@ -115,21 +115,21 @@
     color: #0af5cef5;
   }
 
-  .delete-review-btn {
+  .delete-post-btn {
     background-color: #030e6b;
     color: white;
   }
 
-  .delete-review-btn:hover {
+  .delete-post-btn:hover {
     background-color: #0af5cef5;
   }
 
-  .review {
+  .post {
     margin-bottom: 2%;
     line-height: 150%;
   }
 
-  .review .title span {
+  .post .title span {
     font-style: italic;
     font-size: 90%;
     color: #7d7d7d;
@@ -159,11 +159,11 @@
     opacity: .6;
   }
 
-  .new-review-form input {
+  .new-post-form input {
     width: 300px;
   }
 
-  .edit-review-form {
+  .edit-post-form {
     margin-bottom: 5%;
   }
 
@@ -172,7 +172,7 @@
     font-weight: bold;
   }
 
-  .review-comments-info {
+  .post-comments-info {
     font-weight: bold;
   }
 
