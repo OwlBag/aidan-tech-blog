@@ -3,7 +3,7 @@
   <h2>
     Edit Post
   </h2>
-  <form>
+  <form class="edit-post-form">
     <div>
       <label for="post-title">Title:</label>
       <input name="post-title" type="text" value="{{post.title}}" />
@@ -18,7 +18,7 @@
       <a href="/posts/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
     <button type="submit">Save Post</button>
-    <button type="button">Delete Post</button>
+    <button type="button" class="delete-post-btn">Delete Post</button>
   </form>
 </article>
 

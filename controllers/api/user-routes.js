@@ -79,6 +79,7 @@ router.post('/', (req, res) => {
         return;
       }
   
+      console.log(req.body.password)
       const validPassword = dbUserData.checkPassword(req.body.password);
   
       if (!validPassword) {
